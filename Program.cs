@@ -9,17 +9,7 @@ namespace CodePractice8IfElse
 {
     internal class Program
     {
-        public static void welcome(string name)
-        {
-            Console.WriteLine("Welcome " + name);
-        }
-        public static void HaveAnice()
-        {
-            Console.WriteLine("Have a nice day");
-        }
-        static void Main(string[] args)
-        {
-
+      
 
             /* int num1, num2, num3;
 
