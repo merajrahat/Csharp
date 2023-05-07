@@ -8,27 +8,27 @@ namespace CodePractice9
 {
     internal class Program
     {
-       
+      
         static void Main(string[] args)
         {
-          
+         
 
 
-            string str = "Ccccccc";
-            Console.WriteLine("String: " + str);
-            while (str.Length > 0)
+            string word = "Ccccccc";
+            Console.WriteLine("String: " + word);
+            while (word.Length > 0)
             {
-                Console.Write(str[0] + " = ");
-                int cal = 0;
-                for (int j = 0; j < str.Length; j++)
+                Console.Write(word[0] + " = ");
+                int numberOfLetter = 0;
+                for (int j = 0; j < word.Length; j++)
                 {
-                    if (str[0] == str[j])
+                    if (word[0] == word[j])
                     {
-                        cal++;
+                        numberOfLetter++;
                     }
                 }
-                Console.WriteLine(cal);
-                str = str.Replace(str[0].ToString(), string.Empty);
+                Console.WriteLine(numberOfLetter);
+                word = word.Replace(word[0].ToString(), string.Empty);
             }
             Console.ReadLine();
         }
